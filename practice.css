@@ -28,19 +28,32 @@ body {
     border: 2px solid black;
     width: 50%;
     float: left; 
+    clear: both;
+
 }
 
 
+.main_content {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    width: 75%;
+    float: left;
 
+
+}
 
 
 
 .sidebar {
     background-color: white;
-    padding: 20px;
-    margin: 20px;
+    padding-bottom: 0;
+    padding-top: px;   
+    padding-left: 60;
+    padding-right: 0px;
+    margin-top: 20px;
     border: 2px solid black;
-    width: 20%;    
-    float: right;
-
+    width: 19%;    
+    float: right; 
 }
