@@ -2,12 +2,14 @@ body {
   background-color: rgb(143, 206, 255);
 }
 
-#bar {
+/* header + footer */
+#bar { 
   text-align: center;
   background-color: #7c7c7c;
   color: white;
+  margin: 5px; /* margin + padding */
   padding: 5px;
-  font-family: cursive;
+  font-family: 'Courier New', Courier;
   clear: both;
 }
 
@@ -62,10 +64,12 @@ body {
 
 #contact {
   text-align: center;
-  background-color: chartreuse;
+  background-color: blanchedalmond;
   float: right;
   width: 25%;
   border: 2px solid black;
+  padding: 20;
+  margin: 5px;
 }
 
 .main-container {
