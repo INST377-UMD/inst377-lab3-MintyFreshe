@@ -1,5 +1,6 @@
 body {
   background-color: rgb(143, 206, 255);
+  font-family: 'Times New Roman', Times, serif
 }
 
 /* header + footer */
@@ -9,7 +10,6 @@ body {
   color: white;
   margin: 5px; /* margin + padding */
   padding: 5px;
-  font-family: 'Courier New', Courier;
   clear: both;
 }
 
@@ -53,6 +53,7 @@ body {
   color: black;
   border: 2px solid black;
   border-radius: 15px;
+  width: 95%;
   margin: 5px;
   padding: 5px;
 }
@@ -62,7 +63,7 @@ body {
   float: left;
 }
 
-#contact {
+#rules {
   text-align: center;
   background-color: blanchedalmond;
   float: right;
@@ -72,9 +73,18 @@ body {
   margin: 5px;
 }
 
+#rules:hover {
+  background-color: #7c7c7c;
+}
+
+
 .main-container {
   border: 2px solid black;
   width: 100%;
   height: 70%;
   margin-bottom: 5px;
 }
+
+#name:focus{ /* when the input box is clicked on increase width */ 
+width: 300px;
+ }
